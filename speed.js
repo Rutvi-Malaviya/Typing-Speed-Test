@@ -8,11 +8,11 @@ var timer=[0,0,0,0];
 var interval;
 var timerRunnning = false;
 
+// takes care of the two digit format for timer
 function addLeadingZero(time){
     if(time <= 9){
         time = "0" + time;
     }
-
     return time;
 }
 
@@ -35,7 +35,6 @@ function startTimer(){
         timerRunnning = true;
         interval = setInterval( runTimer, 10);
     }
-
 }
 
 // check the content of test area

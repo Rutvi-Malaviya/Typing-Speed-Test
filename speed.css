@@ -1,23 +1,10 @@
-/*--------------------------------------------------------------
-Typography
---------------------------------------------------------------*/
-
-body,
-button,
-input,
-select,
-textarea {
+body, button, input, select, textarea {
 	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
@@ -25,15 +12,11 @@ p {
 	margin-bottom: 1.5em;
 }
 
-b,
-strong {
+b, strong {
 	font-weight: bold;
 }
 
-dfn,
-cite,
-em,
-i {
+dfn, cite, em, i {
 	font-style: italic;
 }
 
@@ -57,27 +40,21 @@ pre {
 	padding: 1.6em;
 }
 
-code,
-kbd,
-tt,
-var {
+code, kbd, tt, var {
 	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-abbr,
-acronym {
+abbr, acronym {
 	border-bottom: 1px dotted #666;
 	cursor: help;
 }
 
-mark,
-ins {
+mark, ins {
 	background: #fff9c0;
 	text-decoration: none;
 }
 
-sup,
-sub {
+sup, sub {
 	font-size: 75%;
 	height: 0;
 	line-height: 0;
@@ -101,9 +78,7 @@ big {
 	font-size: 125%;
 }
 
-/*--------------------------------------------------------------
-Layout
---------------------------------------------------------------*/
+/* Layout */
 body {
     margin: 0;
     padding: 0;
@@ -126,8 +101,7 @@ body {
 }
 
 
-.introduction p,
-.test-area {
+.introduction p, .test-area {
     margin: 0 auto;
     max-width: 550px;
 }
